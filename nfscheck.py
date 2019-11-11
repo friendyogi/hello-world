@@ -26,10 +26,10 @@ else:
         mailflag = 1
 
 if mailflag == 1:
-        #subprocess.call(["mail", "-s 'NFS mount doesn't exists' -v yogesh.vaishnav@opentext.com -f cloudops5w@cordys.com"])
+        #subprocess.call(["mail", "-s 'NFS mount doesn't exists' -v user@opentext.com -f user@domain.com"])
         SERVER = "localhost"
-        FROM = "cloudops5w@cordys.com"
-        TO = ["yogesh.vaishnav@opentext.com"] # must be a list
+        FROM = "user@domain.com"
+        TO = ["user@domain.com"] # must be a list
         SUBJECT = "NFS mount doesn't exists"
         TEXT = "The file in NFS mount doesn't exists"
         # Prepare actual message
